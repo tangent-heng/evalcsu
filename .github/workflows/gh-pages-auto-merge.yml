@@ -18,6 +18,6 @@ jobs:
       with:
         stable_branch: 'main'
         development_branch: 'gh-pages'
-        allow_ff: false
+        allow_ff: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
